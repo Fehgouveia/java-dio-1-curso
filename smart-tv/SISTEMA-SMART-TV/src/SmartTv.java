@@ -1,7 +1,10 @@
+import java.util.Scanner;
+
 public class SmartTv {
     boolean ligada=false;
     int canal = 1;
     int volume = 25;
+    Scanner scan = new Scanner(System.in);
     public void ligar(){
         ligada = true;
     }
@@ -19,12 +22,14 @@ public class SmartTv {
 
     public void aumentarCanal(){
         canal++;
-
     }
     public void diminuirCanal(){
         canal--;
     }
-    public void mudarCanal(int novoCanal){
+    public void mudarCanal(){
+        int novoCanal;
+        System.out.println("Digite o canal desejado: ");
+        novoCanal = scan.nextInt();
         canal = novoCanal;
     }
 
