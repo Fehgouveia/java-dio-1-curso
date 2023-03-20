@@ -5,7 +5,6 @@ public class Exercicios {
         float f1 =4.5f;
         float f2 = 3.5f;
         double d1 = 59.6d;
-        double d2 = 43.5d;
         char c1 = 'x';
         char c2 = 'y';
         String s1 = "Fulano";
